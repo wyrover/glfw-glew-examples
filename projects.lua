@@ -276,3 +276,7 @@ workspace "glfw-glew-examples"
         create_glfw_console_project("gaussian2", "src/glfw/Tutorial3")
     group "Tutorial4"
         create_glfw2_console_project("code_image", "src/glfw/Tutorial4")
+            files
+            {
+                "src/glfw/Tutorial4/common/**"
+            }
